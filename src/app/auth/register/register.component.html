@@ -1,0 +1,32 @@
+
+<!------ Include the above in your HEAD tag ---------->
+
+<div class="wrapper fadeInDown" >
+    <div id="formContent">
+      <!-- Tabs Titles -->
+  
+      <!-- Icon -->
+      <div class="fadeIn first">
+        <img src="http://danielzawadzki.com/codepen/01/icon.svg" id="icon" alt="User Icon" />
+      </div>
+  
+      <!-- Login Form -->
+      <form>
+        <input type="text" id="cedula" class="fadeIn second" name="cedula" placeholder="Cedula">
+        <input type="text" id="nombres" class="fadeIn second" name="nombres" placeholder="Nombres">
+        <input type="text" id="apellidos" class="fadeIn second" name="apellidos" placeholder="Apellidos">
+        <input type="text" id="telefono" class="fadeIn second" name="telefono" placeholder="Telefono">
+        <input type="text" id="direccion" class="fadeIn second" name="direccion" placeholder="Direccion">
+        <input type="text" id="email" class="fadeIn second" name="email" placeholder="Email">
+        <input type="password" id="password" class="fadeIn second" name="password" placeholder="Password">
+        <input type="submit" class="fadeIn fourth" value="Registrar">
+      </form>
+  
+      <!-- Remind Passowrd -->
+      <div id="formFooter">
+        <a class="underlineHover" [routerLink]="['/login']" routerLinkActive="router-link-active">Login</a>
+      </div>
+  
+    </div>
+  </div>
+  
